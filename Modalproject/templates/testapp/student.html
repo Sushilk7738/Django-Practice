@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Student Records</h1>
+    {% if student == 0 %}
+    <h2>No Records Found</h2>
+    {% endif %}
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Stream</th>
+        </tr>
+        {% for student in studentlist %}
+        <tr>
+            <td>{{student.name}}</td>
+            <td>{{student.age}}</td>
+            <td>{{student.stream}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

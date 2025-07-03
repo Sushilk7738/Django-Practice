@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket News</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body class="cricket-page">
+    <h1 class="cric-head">Welcome To Cricket News</h1>
+    <div class="cricket-container">
+        <div class="news-item">
+            <img src="{% static 'images/mahi.jpg'%}" alt="Captain-cool">
+            <p>Mahendra Singh Dhoni: Mahendra Singh Dhoni got a big honor from ICC, MS Dhoni Enters ICC Hall of Fame:
+                The Captain Cool Who Redefined Leadership in World Cricket, From Ranchi to Global Glory: Dhoni’s Golden Legacy Gets ICC Seal of Greatness.</p>
+        </div>
+        <div class="news-item">
+            <img src="{% static 'images/virat.jpg'%}" alt="Captain-cool">
+            <p>Virat Kohli, aged 36, and Rohit Sharma, now aged 38, announced their retirement from Test cricket in
+                quick succession, during IPL 2025. Their sudden retirements came as a shock to many fans and experts
+                across the cricket fraternity. </p>
+        </div>
+    </div>
+    <a href="/" class="cri-home-link">Home</a>
+</body>
+
+</html>

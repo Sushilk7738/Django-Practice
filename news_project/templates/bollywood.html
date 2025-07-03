@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bollywood News</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body class="bollywood-page">
+    <h1 class="bolly-head">Welcome To Bollywood News</h1>
+    <div class="bollywood-container">
+        <div class="bolly-item">
+            <img src="{% static 'images/kiara.jpg'%}" alt="gorgeous-kiara">
+            <p>Actor couple Sidharth Malhotra and Kiara Advani were spotted visiting a clinic in Mumbai on Wednesday.
+                Kiara was sporting a baby bump and looked adorable, but the moment was lost when a protective Sidharth
+                lost his cool at the paparazzi. </p>
+        </div>
+        <div class="bolly-item">
+            <img src="{% static 'images/yash.jpg'%}" alt="RockingYash">
+            <p>Superstar Yash, fresh off the success of KGF: Chapter 2, has officially confirmed that his highly
+                anticipated film Toxic will not meet its originally planned release date of April 10, 2025. </p>
+        </div>
+    </div>
+<a href="/" class="bolly-home-link">Home</a>
+</body>
+
+</html>

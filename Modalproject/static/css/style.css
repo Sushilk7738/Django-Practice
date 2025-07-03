@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+
+table,
+th,
+td {
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+}
+
+tr:nth-child(even) {
+    background-color: bisque;
+}

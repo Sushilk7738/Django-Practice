@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politics News</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body class="politics-page">
+
+    <!-- Headline -->
+    <h1 class="polly-head">Welcome To Politics News</h1>
+
+    <!-- Jaishankar Quote Box -->
+    <div class="quote-box">
+    <p>
+        Our message was clear: India will respond firmly and precisely to protect its sovereignty.
+        Operation Sindoor was not just an act of defense; it was a statement of intent that terror
+        will not be tolerated, no matter where it originates.
+    </p>
+    <span class="quote-author">— Dr. S. Jaishankar, External Affairs Minister</span>
+</div>
+
+
+    <!-- News Items -->
+    <div class="politics-container">
+
+        <div class="polly-item">
+            <img src="{% static 'images/S-jaishankar.jpg'%}" alt="Modern-diplomat">
+            <p>Responding to the criticism, the External Publicity division of the MEA said:
+                “EAM Jaishankar had stated that we had warned Pakistan at the start, which is clearly
+                the early phase after Op Sindoor’s commencement...”</p>
+        </div>
+
+        <div class="polly-item">
+            <img src="{% static 'images/Leaders.jpg'%}" alt="Leaders">
+            <p>The strikes deliberately avoided Pakistani military installations and were conducted
+                based on precise intelligence to minimize civilian casualties. The operation lasted
+                approximately 23 minutes, utilizing Rafale jets equipped with SCALP, HAMMER Missiles,
+                and Kamikaze Drones.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
