@@ -1,4 +1,5 @@
 # Ignore Python virtual environments
+django_env1/
 django-env/
 venv/
 
