@@ -439,10 +439,39 @@ body.politics-page {
     color: #333;
 }
 
+.polly-home-link-container {
+    text-align: center;
+}
+
+.polly-home-link {
+    display: inline-block;
+    background-color: lightskyblue;
+    width: 120px;
+    height: 42px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+    line-height: 42px;
+    margin: 24px auto 0 auto;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 8px rgba(56, 142, 60, 0.08);
+}
+
+.polly-home-link:hover {
+    background-color: #0288d1;
+    /* darker blue on hover */
+    color: #fff;
+    /* white text on hover */
+    box-shadow: 0 4px 16px rgba(2, 136, 209, 0.18);
+}
+
 
 
 /* --------Bolly glam section-------- */
-
+/* 
 .glam-page {
     
-}
+} */
