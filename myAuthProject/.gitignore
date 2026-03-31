@@ -1,0 +1,24 @@
+# Ignore Python virtual environments
+django_env1/
+django-env/
+venv/
+
+# Bytecode files
+__pycache__/
+*.py[cod]
+*.pyc
+
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
